@@ -139,6 +139,18 @@ h2{
     padding-bottom: 10px;
 }
 
+@media (max-width: 480px){
+    h1 {
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+}
+
 p {
     font-size: 1.3rem;
     letter-spacing: 2px;
