@@ -146,6 +146,8 @@ p {
 }
 
 @media (max-width: 480px){
+    justify-content: start;
+}
     h1 {
     font-size: 2rem;
     padding-bottom: 5px;
