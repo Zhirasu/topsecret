@@ -146,6 +146,7 @@ p {
 }
 
 @media (max-width: 480px){
+section{
     justify-content: start;
 }
     h1 {
