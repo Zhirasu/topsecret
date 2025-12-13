@@ -139,6 +139,12 @@ h2{
     padding-bottom: 10px;
 }
 
+p {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 100 !important;
+}
+
 @media (max-width: 480px){
     h1 {
     font-size: 2rem;
@@ -149,13 +155,15 @@ h2{
     font-size: 1.8rem;
     padding-bottom: 5px;
 }
-}
 
 p {
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    font-weight: 100 !important;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+ 
 }
+}
+
+
 
 span.span-sitio {
     font-size: 1.5rem;
@@ -575,3 +583,13 @@ p.time > span{
     font-size: 2.2rem;
     color: #100736;
 }
+
+@media (max-width: 480px){
+    p.time{
+    font-size: 1.5rem;
+}
+    p.time > span{
+    font-size: 1.5rem;
+  
+}
+    }
